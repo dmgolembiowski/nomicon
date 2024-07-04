@@ -1,0 +1,6 @@
+- [ ] Implementing Mutex from Scratch
+- [ ] Updating "Arc from Scratch" example to use updated code from Rust Atomics & Locks by Mara Bos (give credit and cite the literatures)
+- [ ] Figure out how to implement a simplified Mutex from scratch (maybe cheat and do a spin-lock instead?)
+- [ ] Apply formatting to local odg files
+- [ ] Hand-draw some illustrations then make them into SVGs or something
+- [ ] Determine more topics to go in the "lost-chapter" section
