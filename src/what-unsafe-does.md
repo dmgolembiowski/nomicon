@@ -5,7 +5,7 @@ The only things that are different in Unsafe Rust are that you can:
 * Dereference raw pointers
 * Call `unsafe` functions (including C functions, compiler intrinsics, and the raw allocator)
 * Implement `unsafe` traits
-* Mutate statics
+* Access or modify mutable statics
 * Access fields of `union`s
 
 That's it. The reason these operations are relegated to Unsafe is that misusing
@@ -41,7 +41,7 @@ language cares about is preventing the following things:
     [`NonNull`] that is null. (Requesting custom invalid values is an unstable
     feature, but some stable libstd types, like `NonNull`, make use of it.)
 
-For a more detailed explanation about "Undefined Bahavior", you may refer to
+For a more detailed explanation about "Undefined Behavior", you may refer to
 [the reference][behavior-considered-undefined].
 
 "Producing" a value happens any time a value is assigned, passed to a
